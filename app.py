@@ -2,7 +2,7 @@ import pdfplumber
 import os
 import google.generativeai as genai
 
-genai.configure(api_key="AIzaSyB1LON40MDHU2MxLNJTEmmscIhQLZWAeW8")
+genai.configure(api_key="YOUR_API_KEY")
 
 def extract_text_from_pdf(pdf_path, output_folder="output", output_file="data.txt"):
     os.makedirs(output_folder, exist_ok=True)
