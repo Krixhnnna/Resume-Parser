@@ -5,7 +5,7 @@ This project extracts text from a PDF resume and structures it into a well-forma
 ## Features
 - Extracts text from a PDF resume.
 - Uses Google Gemini AI to structure and enhance the data.
-- Saves the structured resume in `Structured_data.txt`.
+- Saves the structured resume in `output/Structured_data.txt`.
 
 ## Prerequisites
 - Python 3.x
@@ -18,8 +18,8 @@ This project extracts text from a PDF resume and structures it into a well-forma
 ## Usage
 1. Clone the repository:
    ```sh
-   git clone https://github.com/Krixhnnna/Resume-Parser
-   cd resume-parser
+   git clone https://github.com/Krixhnnna/Resume-Parser.git
+   cd Resume-Parser
    ```
 2. Add your Google Gemini API key inside the script:
    ```python
@@ -32,16 +32,6 @@ This project extracts text from a PDF resume and structures it into a well-forma
 4. Enter the PDF file path when prompted.
 5. Extracted text will be saved in `output/data.txt`.
 6. The structured resume will be saved in `output/Structured_data.txt`.
-
-## File Structure
-```
-resume-parser/
-│-- script.py
-│-- README.md
-│-- output/
-    │-- data.txt
-    │-- Structured_data.txt
-```
 
 ## Output Format
 ```
@@ -63,5 +53,4 @@ Other Relevant Details:
 This project is open-source and available under the MIT License.
 
 ## Author
-- **Krishna Pandey** - [GitHub](https://github.com/Krixhnnna/Resume-Parser)
-
+- **Krixhnnna** - [GitHub](https://github.com/Krixhnnna)
